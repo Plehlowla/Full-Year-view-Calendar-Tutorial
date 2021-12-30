@@ -6,9 +6,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Full Year view Calendar</title>
     <link rel="stylesheet" href="index.css">
-    <script src="script.js" defer ></script>
+    <link rel="stylesheet" type="text/css" href="https://unpkg.com/js-year-calendar@latest/dist/js-year-calendar.min.css" />
+    <script src="https://unpkg.com/js-year-calendar@latest/dist/js-year-calendar.min.js"></script>
 </head>
 <body>
+
+    <div class="calendar"></div>
+
+    <script>
+        new Calendar(document.querySelector('.calendar'));
+    </script>
     
 </body>
 </html>
